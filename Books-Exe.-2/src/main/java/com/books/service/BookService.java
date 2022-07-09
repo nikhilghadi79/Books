@@ -15,5 +15,7 @@ public interface BookService {
 	public Book deleteBook(int bookId);
 
 	public Book addBook(Book book);
+	
+	public Book searchBook(Book book);
 
 }

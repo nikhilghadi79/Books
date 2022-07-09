@@ -47,4 +47,10 @@ public class BookServiceImpl implements BookService {
 		return book;
 	}
 
+	@Override
+	public Book searchBook(Book book) {
+		
+		return null;
+	}
+
 }
